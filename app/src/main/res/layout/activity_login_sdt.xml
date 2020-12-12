@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginSdt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_button_back"/>
+        <TextView
+            android:textColor="@color/chu"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:text="Nhập số điện thoại"/>
+    </LinearLayout>
+    <EditText
+        android:textColorHint="@color/chu"
+        android:textColor="@color/chu"
+        android:inputType="phone"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius_button_xam"
+        android:hint="Số điện thoại"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:text="Nhấn vào tiếp tục để xác minh số điện thoại của bạn. Chúng tôi sẽ gửi SMS để xác minh số của bạn"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/btnloginsdttt"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_button_xam"
+        android:text="Tiếp tục"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

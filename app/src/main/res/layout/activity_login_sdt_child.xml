@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginSdt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_button_back"/>
+        <TextView
+            android:textColor="@color/chu"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:text="NHẬP MÃ XÁC NHẬN"/>
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/chu"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Số điện thoại của bạn là 0325871777. Vui long kiểm tra tin nhắn để lấy mã."
+        android:textSize="16sp"
+      />
+    <EditText
+        android:textColor="@color/chu"
+        android:inputType="number"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius_button_xam"
+        android:hint="Mã code"
+        android:paddingLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/btnsdttt"
+        android:layout_gravity="center"
+        android:paddingRight="10dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_button_green"
+        android:text="Tiếp tục                                                                   "
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:drawableRight="@drawable/ic_next" />
+
+</LinearLayout>
